@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🔞 18+ Video | Watch Now</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #111, #1e1e1e);
+      color: #f1f1f1;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background-color: #1f1f1f;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+      max-width: 420px;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #ff4d4d;
+      margin-bottom: 10px;
+    }
+
+    .warning {
+      color: #ffcc00;
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .thumbnail img {
+      width: 100%;
+      border-radius: 10px;
+      border: 3px solid #2a2a2a;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .thumbnail img:hover {
+      transform: scale(1.02);
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 14px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .primary {
+      background-color: #e91e63;
+      color: #fff;
+    }
+
+    .primary:hover {
+      background-color: #c2185b;
+    }
+
+    .secondary {
+      background-color: #26a69a;
+      color: #fff;
+    }
+
+    .secondary:hover {
+      background-color: #1d7f74;
+    }
+
+    .btn i {
+      margin-right: 10px;
+    }
+
+    .disclaimer {
+      margin-top: 25px;
+      font-size: 0.85rem;
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .btn {
+        font-size: 0.95rem;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔞 18+ Video Preview</h1>
+    <p class="warning">You must be 18 or older to continue.</p>
+
+    <div class="thumbnail">
+      <img src="https://as1.ftcdn.net/jpg/03/14/44/46/1000_F_314444600_tPRZBWyoZuaIhAGwupsQXhch38ATYE5I.jpg" alt="Video Thumbnail" />
+    </div>
+
+    <div class="buttons">
+      <a href="#" id="watchBtn" class="btn primary">
+        <i>▶️</i> Watch Full Video
+      </a>
+      <a href="#" id="downloadBtn" class="btn secondary">
+        <i>⬇️</i> Download Video
+      </a>
+    </div>
+
+    <p class="disclaimer">
+      ⚠️ This content is for adults only. You will be redirected through a secure ad-supported link. Wait a few seconds and skip the ad if prompted.
+    </p>
+  </div>
+
+  <script>
+    // Your ad-shortened links here
+    const watchLink = "https://shrinkme.io/your-video-link";
+    const downloadLink = "https://shrinkme.io/your-download-link";
+
+    document.getElementById("watchBtn").href = watchLink;
+    document.getElementById("downloadBtn").href = downloadLink;
+  </script>
+
+</body>
+</html>
